@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478628832549AB6E00B31DC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628822549AB6E00B31DC8 /* AppDelegate.swift */; };
+		478628852549AB6E00B31DC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628842549AB6E00B31DC8 /* SceneDelegate.swift */; };
+		478628872549AB6E00B31DC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628862549AB6E00B31DC8 /* ViewController.swift */; };
+		4786288A2549AB6E00B31DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478628882549AB6E00B31DC8 /* Main.storyboard */; };
+		4786288D2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4786288B2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodeld */; };
+		4786288F2549AB7000B31DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4786288E2549AB7000B31DC8 /* Assets.xcassets */; };
+		478628922549AB7000B31DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478628902549AB7000B31DC8 /* LaunchScreen.storyboard */; };
+		4786289D2549AB7000B31DC8 /* AdelaideFringerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786289C2549AB7000B31DC8 /* AdelaideFringerTests.swift */; };
+		478628A82549AB7000B31DC8 /* AdelaideFringerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628A72549AB7000B31DC8 /* AdelaideFringerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478628992549AB7000B31DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478628772549AB6D00B31DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4786287E2549AB6E00B31DC8;
+			remoteInfo = AdelaideFringer;
+		};
+		478628A42549AB7000B31DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478628772549AB6D00B31DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4786287E2549AB6E00B31DC8;
+			remoteInfo = AdelaideFringer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4786287F2549AB6E00B31DC8 /* AdelaideFringer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdelaideFringer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478628822549AB6E00B31DC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478628842549AB6E00B31DC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		478628862549AB6E00B31DC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478628892549AB6E00B31DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4786288C2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdelaideFringer.xcdatamodel; sourceTree = "<group>"; };
+		4786288E2549AB7000B31DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478628912549AB7000B31DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478628932549AB7000B31DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478628982549AB7000B31DC8 /* AdelaideFringerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdelaideFringerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4786289C2549AB7000B31DC8 /* AdelaideFringerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdelaideFringerTests.swift; sourceTree = "<group>"; };
+		4786289E2549AB7000B31DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478628A32549AB7000B31DC8 /* AdelaideFringerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdelaideFringerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478628A72549AB7000B31DC8 /* AdelaideFringerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdelaideFringerUITests.swift; sourceTree = "<group>"; };
+		478628A92549AB7100B31DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4786287C2549AB6E00B31DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478628952549AB7000B31DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478628A02549AB7000B31DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478628762549AB6D00B31DC8 = {
+			isa = PBXGroup;
+			children = (
+				478628812549AB6E00B31DC8 /* AdelaideFringer */,
+				4786289B2549AB7000B31DC8 /* AdelaideFringerTests */,
+				478628A62549AB7000B31DC8 /* AdelaideFringerUITests */,
+				478628802549AB6E00B31DC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478628802549AB6E00B31DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4786287F2549AB6E00B31DC8 /* AdelaideFringer.app */,
+				478628982549AB7000B31DC8 /* AdelaideFringerTests.xctest */,
+				478628A32549AB7000B31DC8 /* AdelaideFringerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478628812549AB6E00B31DC8 /* AdelaideFringer */ = {
+			isa = PBXGroup;
+			children = (
+				478628822549AB6E00B31DC8 /* AppDelegate.swift */,
+				478628842549AB6E00B31DC8 /* SceneDelegate.swift */,
+				478628862549AB6E00B31DC8 /* ViewController.swift */,
+				478628882549AB6E00B31DC8 /* Main.storyboard */,
+				4786288E2549AB7000B31DC8 /* Assets.xcassets */,
+				478628902549AB7000B31DC8 /* LaunchScreen.storyboard */,
+				478628932549AB7000B31DC8 /* Info.plist */,
+				4786288B2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodeld */,
+			);
+			path = AdelaideFringer;
+			sourceTree = "<group>";
+		};
+		4786289B2549AB7000B31DC8 /* AdelaideFringerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4786289C2549AB7000B31DC8 /* AdelaideFringerTests.swift */,
+				4786289E2549AB7000B31DC8 /* Info.plist */,
+			);
+			path = AdelaideFringerTests;
+			sourceTree = "<group>";
+		};
+		478628A62549AB7000B31DC8 /* AdelaideFringerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478628A72549AB7000B31DC8 /* AdelaideFringerUITests.swift */,
+				478628A92549AB7100B31DC8 /* Info.plist */,
+			);
+			path = AdelaideFringerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4786287E2549AB6E00B31DC8 /* AdelaideFringer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478628AC2549AB7100B31DC8 /* Build configuration list for PBXNativeTarget "AdelaideFringer" */;
+			buildPhases = (
+				4786287B2549AB6E00B31DC8 /* Sources */,
+				4786287C2549AB6E00B31DC8 /* Frameworks */,
+				4786287D2549AB6E00B31DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdelaideFringer;
+			productName = AdelaideFringer;
+			productReference = 4786287F2549AB6E00B31DC8 /* AdelaideFringer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478628972549AB7000B31DC8 /* AdelaideFringerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478628AF2549AB7100B31DC8 /* Build configuration list for PBXNativeTarget "AdelaideFringerTests" */;
+			buildPhases = (
+				478628942549AB7000B31DC8 /* Sources */,
+				478628952549AB7000B31DC8 /* Frameworks */,
+				478628962549AB7000B31DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4786289A2549AB7000B31DC8 /* PBXTargetDependency */,
+			);
+			name = AdelaideFringerTests;
+			productName = AdelaideFringerTests;
+			productReference = 478628982549AB7000B31DC8 /* AdelaideFringerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478628A22549AB7000B31DC8 /* AdelaideFringerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478628B22549AB7100B31DC8 /* Build configuration list for PBXNativeTarget "AdelaideFringerUITests" */;
+			buildPhases = (
+				4786289F2549AB7000B31DC8 /* Sources */,
+				478628A02549AB7000B31DC8 /* Frameworks */,
+				478628A12549AB7000B31DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478628A52549AB7000B31DC8 /* PBXTargetDependency */,
+			);
+			name = AdelaideFringerUITests;
+			productName = AdelaideFringerUITests;
+			productReference = 478628A32549AB7000B31DC8 /* AdelaideFringerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478628772549AB6D00B31DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4786287E2549AB6E00B31DC8 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					478628972549AB7000B31DC8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4786287E2549AB6E00B31DC8;
+					};
+					478628A22549AB7000B31DC8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4786287E2549AB6E00B31DC8;
+					};
+				};
+			};
+			buildConfigurationList = 4786287A2549AB6D00B31DC8 /* Build configuration list for PBXProject "AdelaideFringer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478628762549AB6D00B31DC8;
+			productRefGroup = 478628802549AB6E00B31DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4786287E2549AB6E00B31DC8 /* AdelaideFringer */,
+				478628972549AB7000B31DC8 /* AdelaideFringerTests */,
+				478628A22549AB7000B31DC8 /* AdelaideFringerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4786287D2549AB6E00B31DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478628922549AB7000B31DC8 /* LaunchScreen.storyboard in Resources */,
+				4786288F2549AB7000B31DC8 /* Assets.xcassets in Resources */,
+				4786288A2549AB6E00B31DC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478628962549AB7000B31DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478628A12549AB7000B31DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4786287B2549AB6E00B31DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478628872549AB6E00B31DC8 /* ViewController.swift in Sources */,
+				478628832549AB6E00B31DC8 /* AppDelegate.swift in Sources */,
+				4786288D2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodeld in Sources */,
+				478628852549AB6E00B31DC8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478628942549AB7000B31DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4786289D2549AB7000B31DC8 /* AdelaideFringerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4786289F2549AB7000B31DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478628A82549AB7000B31DC8 /* AdelaideFringerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4786289A2549AB7000B31DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4786287E2549AB6E00B31DC8 /* AdelaideFringer */;
+			targetProxy = 478628992549AB7000B31DC8 /* PBXContainerItemProxy */;
+		};
+		478628A52549AB7000B31DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4786287E2549AB6E00B31DC8 /* AdelaideFringer */;
+			targetProxy = 478628A42549AB7000B31DC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478628882549AB6E00B31DC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478628892549AB6E00B31DC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478628902549AB7000B31DC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478628912549AB7000B31DC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478628AA2549AB7100B31DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478628AB2549AB7100B31DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478628AD2549AB7100B31DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdelaideFringer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = p.AdelaideFringer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478628AE2549AB7100B31DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdelaideFringer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = p.AdelaideFringer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		478628B02549AB7100B31DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdelaideFringerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = p.AdelaideFringerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdelaideFringer.app/AdelaideFringer";
+			};
+			name = Debug;
+		};
+		478628B12549AB7100B31DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdelaideFringerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = p.AdelaideFringerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdelaideFringer.app/AdelaideFringer";
+			};
+			name = Release;
+		};
+		478628B32549AB7100B31DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdelaideFringerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = p.AdelaideFringerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdelaideFringer;
+			};
+			name = Debug;
+		};
+		478628B42549AB7100B31DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdelaideFringerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = p.AdelaideFringerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdelaideFringer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4786287A2549AB6D00B31DC8 /* Build configuration list for PBXProject "AdelaideFringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478628AA2549AB7100B31DC8 /* Debug */,
+				478628AB2549AB7100B31DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478628AC2549AB7100B31DC8 /* Build configuration list for PBXNativeTarget "AdelaideFringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478628AD2549AB7100B31DC8 /* Debug */,
+				478628AE2549AB7100B31DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478628AF2549AB7100B31DC8 /* Build configuration list for PBXNativeTarget "AdelaideFringerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478628B02549AB7100B31DC8 /* Debug */,
+				478628B12549AB7100B31DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478628B22549AB7100B31DC8 /* Build configuration list for PBXNativeTarget "AdelaideFringerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478628B32549AB7100B31DC8 /* Debug */,
+				478628B42549AB7100B31DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4786288B2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4786288C2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodel */,
+			);
+			currentVersion = 4786288C2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodel */;
+			path = AdelaideFringer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 478628772549AB6D00B31DC8 /* Project object */;
+}
