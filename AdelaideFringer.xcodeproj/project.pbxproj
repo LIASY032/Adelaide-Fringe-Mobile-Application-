@@ -16,6 +16,13 @@
 		478628922549AB7000B31DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478628902549AB7000B31DC8 /* LaunchScreen.storyboard */; };
 		4786289D2549AB7000B31DC8 /* AdelaideFringerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786289C2549AB7000B31DC8 /* AdelaideFringerTests.swift */; };
 		478628A82549AB7000B31DC8 /* AdelaideFringerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628A72549AB7000B31DC8 /* AdelaideFringerUITests.swift */; };
+		478628C12549AC4900B31DC8 /* FringeEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628C02549AC4900B31DC8 /* FringeEvents.swift */; };
+		478628CA2549ACC000B31DC8 /* DescriptionEventCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628C52549ACC000B31DC8 /* DescriptionEventCV.swift */; };
+		478628CB2549ACC000B31DC8 /* indexForRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628C62549ACC000B31DC8 /* indexForRecord.swift */; };
+		478628CC2549ACC000B31DC8 /* RecordEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628C72549ACC000B31DC8 /* RecordEvent.swift */; };
+		478628CD2549ACC000B31DC8 /* EventListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628C82549ACC000B31DC8 /* EventListViewCell.swift */; };
+		478628CE2549ACC000B31DC8 /* FringeVenues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628C92549ACC000B31DC8 /* FringeVenues.swift */; };
+		478628D62549B0CD00B31DC8 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478628D52549B0CD00B31DC8 /* EventListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		478628A32549AB7000B31DC8 /* AdelaideFringerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdelaideFringerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478628A72549AB7000B31DC8 /* AdelaideFringerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdelaideFringerUITests.swift; sourceTree = "<group>"; };
 		478628A92549AB7100B31DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478628C02549AC4900B31DC8 /* FringeEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FringeEvents.swift; sourceTree = "<group>"; };
+		478628C52549ACC000B31DC8 /* DescriptionEventCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionEventCV.swift; sourceTree = "<group>"; };
+		478628C62549ACC000B31DC8 /* indexForRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indexForRecord.swift; sourceTree = "<group>"; };
+		478628C72549ACC000B31DC8 /* RecordEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEvent.swift; sourceTree = "<group>"; };
+		478628C82549ACC000B31DC8 /* EventListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewCell.swift; sourceTree = "<group>"; };
+		478628C92549ACC000B31DC8 /* FringeVenues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FringeVenues.swift; sourceTree = "<group>"; };
+		478628D52549B0CD00B31DC8 /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,13 @@
 		478628812549AB6E00B31DC8 /* AdelaideFringer */ = {
 			isa = PBXGroup;
 			children = (
+				478628D52549B0CD00B31DC8 /* EventListViewController.swift */,
+				478628C52549ACC000B31DC8 /* DescriptionEventCV.swift */,
+				478628C82549ACC000B31DC8 /* EventListViewCell.swift */,
+				478628C92549ACC000B31DC8 /* FringeVenues.swift */,
+				478628C62549ACC000B31DC8 /* indexForRecord.swift */,
+				478628C72549ACC000B31DC8 /* RecordEvent.swift */,
+				478628C02549AC4900B31DC8 /* FringeEvents.swift */,
 				478628822549AB6E00B31DC8 /* AppDelegate.swift */,
 				478628842549AB6E00B31DC8 /* SceneDelegate.swift */,
 				478628862549AB6E00B31DC8 /* ViewController.swift */,
@@ -261,9 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478628CB2549ACC000B31DC8 /* indexForRecord.swift in Sources */,
+				478628CA2549ACC000B31DC8 /* DescriptionEventCV.swift in Sources */,
 				478628872549AB6E00B31DC8 /* ViewController.swift in Sources */,
 				478628832549AB6E00B31DC8 /* AppDelegate.swift in Sources */,
+				478628D62549B0CD00B31DC8 /* EventListViewController.swift in Sources */,
 				4786288D2549AB6E00B31DC8 /* AdelaideFringer.xcdatamodeld in Sources */,
+				478628CC2549ACC000B31DC8 /* RecordEvent.swift in Sources */,
+				478628CD2549ACC000B31DC8 /* EventListViewCell.swift in Sources */,
+				478628C12549AC4900B31DC8 /* FringeEvents.swift in Sources */,
+				478628CE2549ACC000B31DC8 /* FringeVenues.swift in Sources */,
 				478628852549AB6E00B31DC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

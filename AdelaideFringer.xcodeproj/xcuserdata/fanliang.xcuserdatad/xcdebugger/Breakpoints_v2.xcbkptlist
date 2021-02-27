@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C35F8F0-D1C9-42AE-ADD7-52F7403CEC5E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40CBC237-0C01-427C-B879-E4793FD50120"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdelaideFringer/EventListViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "EventListViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "40CBC237-0C01-427C-B879-E4793FD50120 - 4a3f5cbd0fd0c36d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.EventListViewCell.artist.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/EventListViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "40CBC237-0C01-427C-B879-E4793FD50120 - 50a5c08db277e771"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.EventListViewCell.artist.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/EventListViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "40CBC237-0C01-427C-B879-E4793FD50120 - 2e9ed7d0c6b18d92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.EventListViewCell.artist.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/EventListViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "40CBC237-0C01-427C-B879-E4793FD50120 - 1d6058fa0322d883"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.EventListViewCell.artist.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/EventListViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "40CBC237-0C01-427C-B879-E4793FD50120 - 783bf598bef198"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.EventListViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AdelaideFringer.EventListViewCell"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/EventListViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "40CBC237-0C01-427C-B879-E4793FD50120 - 6c4be101aaa94abb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.EventListViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AdelaideFringer.EventListViewCell&gt;"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/EventListViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "451">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "742379F1-8F4B-4322-96E6-C43AD9E51195"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdelaideFringer/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "742379F1-8F4B-4322-96E6-C43AD9E51195 - fa7174faa4bb7af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_E7AB90842A22C4AB634D7C75B8DC718F_func1"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  uuid = "742379F1-8F4B-4322-96E6-C43AD9E51195 - c8f089835fa70fcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdelaideFringer.indexlikes.unsafeMutableAddressor : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "AdelaideFringer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanliang/Desktop/p/picture/AdelaideFringer/AdelaideFringer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
